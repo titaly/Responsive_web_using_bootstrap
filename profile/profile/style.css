@@ -1,0 +1,367 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Zen+Kaku+Gothic+New&display=swap'); /*YOUTUBE*/
+@import url('https://fonts.googleapis.com/css2?family=Lacquer&family=Permanent+Marker&family=Zen+Kaku+Gothic+New&display=swap'); /*BIO*/
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    overflow-x: hidden;
+    
+}
+
+/* menu */
+.navbar-brand img{
+    width: 15%;
+    margin-left: 20px;
+}
+header{
+    position: fixed;
+    width: 100%;
+    z-index: 20;
+    background-color: white;
+}
+@media (min-width: 480px) and (max-width: 767px){
+    header{
+        /* background-color: transparent; */
+        color: black;
+        position:absolute;
+        width: 20%;
+        background-color: rgba(255, 255, 255, 0.734);
+        border-radius: 0px 0px 7px 7px;}
+    header a{
+        margin-left: 10px;
+    }
+    
+    .navbar-toggler{
+        
+        color: #242222;
+        width: 5px;
+        height: 20px;
+        margin-left: 25px;
+        border:none;
+    }
+    .navbar-toggler span{
+        color: rgb(10, 10, 10);
+        width: 10px;
+        height: 20px;
+        margin-left: -5px;
+        margin-top: -15px;
+        /* border:none; */
+    }
+    .d-flex button{
+       display: none;
+    }
+    
+    .navbar-brand img{
+        width: 30px;
+        margin: 10px;
+    }
+    .d-flex input{
+        display: none;
+    }
+}
+@media (min-width: 480px) and (max-width: 767px){
+    
+    .navbar-collapse a{
+        font-size: 12px;
+    }
+}
+.wrapper {
+	width: 100%;
+	margin: 0 auto;
+}
+.header-section img{
+    width: 100%;
+}
+.text1{      
+    width: 90%;
+    color: #fff;
+    position: absolute;
+    top: 44%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-left: 720px;
+}
+.text1 h1{
+    font-size: 80px;
+    font-family: 'Permanent Marker', cursive;
+    text-shadow: #000000;
+}
+.text1:hover{
+    transition: 0.8s;
+    font-size: 70px;
+}
+.text1 h1:hover{
+    transition: 1s;
+    font-size: 70px;
+}
+
+.hero-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(216, 248, 252);
+    border: 1px solid #fff;
+    padding: 12px 34px;
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    font-size: 13px;
+    background: linear-gradient(rgba(168, 168, 168, 0.7), rgba(168, 168, 168, 0.7));
+    position: relative;
+    cursor: pointer;
+}
+.hero-btn:hover{
+    border: 1px solid WHITE;
+    background: #3640cc;
+    transition: 0.5s;
+    font-size: 15px;
+    color: #fff;
+}
+@media (min-width: 480px) and (max-width: 767px){
+    .text1{
+        margin-left:16px;
+        margin-top: 50px;
+        width: auto;
+        height: 20px;
+        top: 44%;
+        left: 50%;
+    }
+    .text1 h1{
+        color: #1d4887;
+        text-align: center;
+        font-size: 20px;
+       
+    }
+    .text1 a{
+        text-align: center;
+        font-size: 9px;
+        
+    }
+    .text1:hover{
+        transition: 0.8s;
+        font-size: 20px;
+    }
+    .text1 h1:hover{
+        transition: 1s;
+        font-size: 22px;
+    }
+    .hero-btn:hover{
+        border: 1px solid WHITE;
+        background: #3640cc;
+        transition: 0.5s;
+        font-size: 9px;
+        color: aliceblue;
+    }
+}
+
+
+
+.section1{
+    margin-top: 80px;
+}
+
+.col-xl-3 img{
+    width: 440px;
+    margin-left: -20px;
+}
+.bio {
+    margin-left: 40px;
+    font-family: 'Lacquer', cursive;
+    font-size: 30px;
+    color: #464646;
+}
+.txt-bio{
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    font-size: 16px;
+}
+.carousel-item img{
+    margin-left:140px;
+    margin-bottom: 70px;
+}
+.col h1{
+    font-family: 'Lacquer', cursive;
+    font-size: 30px;
+    text-align: center;
+    color: #464646;
+}
+.carousel-item h5{
+   margin-left: 500px;
+   margin-top: -400px;
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    font-size: 25px;
+    font-weight: 900;
+}
+.carousel-item p{
+    margin-left: 500px;
+    margin-top: -10px;
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    font-size: 20px;
+}
+
+
+
+/* Project */
+.project h1{
+    font-family: 'Lacquer', cursive;
+    font-size: 30px;
+    color: #464646;
+    text-align: center;
+    margin-bottom: 50px;
+    width:100%;
+}
+.img-pro img{  
+    width: 100%;
+    opacity:1;
+    
+}
+.roll{
+    
+    color: #3d63a9;
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    font-size: 16px;
+}
+
+/* Contact */
+.con-pic img{
+    width: 100%;
+}
+.con-info{
+    margin-top: -510px;
+    margin-left: 180px;
+}
+.con-info h3{
+    font-family: 'Lacquer', cursive;
+    font-size: 25px;
+    padding-bottom: 30px;
+}
+.sub-info{
+    padding-top: 10px;
+    width: 34%;
+}
+.submit{
+    padding-top: 10px;
+    width: 34%;
+}
+.con-info span{
+    
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    font-size: 12px;
+    text-align: justify;
+}
+.submit{
+    background-color:#a4d6fc;
+    border-radius: 20px;
+    padding: 5px;
+    border: 0;
+    width: 10%;
+    margin-left: 280px;
+    cursor: pointer;
+    font-family: 'Lacquer', cursive;
+    font-size: 20px;
+    margin-top: -130px;
+}
+.submit:hover{
+    transition: 0.5s;
+    background-color:#1d4887;
+    border-radius: 20px;
+    padding: 5px;
+    border: 0;
+    width: 10%;
+    margin-left: 280px;
+    cursor: pointer;
+    font-family: 'Lacquer', cursive;
+    font-size: 20px;
+    color: white;
+}
+.email{
+    background-color: transparent;
+    border: 0;
+    border-bottom: 2px solid #0a0a0a;
+    font-size: 18px;
+    color: #000000;
+    font-weight: 400;
+    line-height: 1;
+    padding-top: 10px;
+    transition: 1s ;
+    /* background-color: ease-in-out,.1s border-color ease-in-out; */
+    margin: 0;
+    width: 350px;
+    box-shadow: none;
+    margin-bottom: 50px;
+}
+.country{
+    background-color: transparent;
+    border:0;
+    width: 350px;
+    border-bottom: 2px solid #0a0a0a;
+    font-size: 18px;
+    color: #0a0a0a;
+    font-weight: 400;
+    padding: 0 8px 0 0;
+    transition: 1s ;
+    /* background-color: ease-in-out,.1s border-color ease-in-out; */
+    margin: 0;
+    box-shadow: none;
+}
+.country:focus, .email:focus{
+    outline: none;
+    background-color: transparent;
+}
+
+/* 
+@media (min-width: 991px) and (max-width: 1300px){
+
+}
+@media (min-width: 768px) and (max-width: 991px){
+    
+}*/
+
+@media (min-width: 480px) and (max-width: 767px){
+    .con-info{
+        width: 100%;
+        margin-top: -210px;
+        margin-left: 40px;
+    }
+    .con-info p{
+        font-size: 8px;
+    }
+    .con-info h3{
+        font-size: 12px;
+        margin-bottom: -30px;
+    }
+    .con-info input, .con-info select{
+        font-size: 12px;
+    }
+    .email{
+        margin-bottom: -190px;
+        width: 150px;
+    }
+    .sub-info p{
+        font-size: 6px;
+    }
+    .country{
+        width: 150px;
+    }
+    .submit{
+        float: left;
+        margin-left: 120px;
+        margin-top: -20px;
+        width: 55px;
+    }
+    .submit:hover{
+        float: left;
+        margin-left: 120px;
+        margin-top: -20px;
+        width: 55px;
+    }
+    
+    
+} 
+
+
+.social a{
+ color: #000000;
+ margin-left: 10px;
+}
+

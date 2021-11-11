@@ -1,0 +1,297 @@
+@import url('https://fonts.googleapis.com/css2?family=Hi+Melody&family=Lacquer&family=Permanent+Marker&family=Poppins:wght@500&family=Zen+Kaku+Gothic+New&display=swap'); /*Menu*/
+@import url('https://fonts.googleapis.com/css2?family=Hi+Melody&family=Lacquer&family=Montez&family=Permanent+Marker&family=Poppins:wght@500&family=Zen+Kaku+Gothic+New&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    overflow-x: hidden;   
+}
+/* menu */
+.navbar-brand img{
+    width: 15%;
+    margin-left: 20px;
+}
+header{
+    position: fixed;
+    width: 100%;
+    z-index: 20;
+    background-color: white;
+}
+
+@media (min-width: 480px) and (max-width: 767px){
+    header{
+        /* background-color: transparent; */
+        position:absolute;
+        width: 100%;
+        background-color: white;
+        border-radius: 0px 0px 7px 7px;
+        margin-top: -105px;}
+    header a{
+        margin-left: 10px;
+        
+    }
+    .navbar-toggler{
+        color: #6a6363;
+        width: 5px;
+        height: 20px;
+        margin-left: 25px;
+        border:none;
+    }
+    .navbar-toggler span{
+        color: white;
+        width: 10px;
+        height: 20px;
+        margin-left: -5px;
+        margin-top: -15px;
+        border:none;
+    }
+    .header-sec {
+        margin-top: 100px;
+        margin-bottom: 80px;
+        
+    }
+    
+    .text1{
+        float: left;
+        margin-left:-306px;
+        margin-top: 50px;
+        width: auto;
+        height: 20px;
+        /* top: 44%;
+        left: 50%; */
+    }
+    .text1 h1{
+        color: #1d4887;
+        text-align: center;
+        font-size: 20px;
+       
+    }
+    .section1 {
+        background-color: none;
+       
+    }
+    .section1 img{
+        margin-top: 100px;
+    }
+    .w-food{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 10px;
+        margin: 20px;
+    }
+    .card-txt{
+        margin-top: -100px;
+        margin-bottom: -10px;
+    }
+    .card1 h1, .card1 p{
+       width: 110px;
+       height: 10px;
+    }
+    .description{
+        width: 200px;
+       
+    }
+    .description1{
+        width: 200px;
+       
+    }
+     .description1 i{
+        font-size: 6px;
+    }
+    .section3{
+        margin-top: -10px;
+    }
+    .head1{
+        text-align: center;
+    }
+    .head2{ 
+        text-align: center;
+    }
+    
+    
+}
+.wrapper {
+	width: 100%;
+	margin: 0 auto;
+}
+.header-section img{
+    width: 100%; 
+}
+.col-xxl-9 img{
+    margin-top: -110px;
+}
+.text1{     
+    font-family: 'Montez', cursive;
+    width: 90%;
+    color: #fff;
+    position: absolute;
+    top: 44%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    margin-left: 400px;
+    margin-top: -40px;
+   
+}
+.text1 h1{
+    font-size: 60px;
+}
+.text1:hover{
+    transition: 0.8s;
+    font-size: 20px;
+}
+
+.section1{
+    margin-top: -130px;
+    /* background-color: #fff; */
+}
+
+
+.col-xl-6 img{
+    width:100%;
+    margin-left: 5px;
+}
+.col-xl-6{
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.map-txt {
+    width: 110%;
+    background-color: #fff;
+}
+.txt-map{
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    margin-top: 40px;
+    margin-left: 60px;
+    margin-right: 50px;
+    text-align: justify;
+}
+.txt-map h1{
+    font-size: 30px;
+}
+
+
+.head2 h1{
+    margin-top: 60px;
+    margin-bottom: -90px;
+    margin-left: 20px;
+}
+.section2{
+    margin-top: 180px;
+}
+.tourism1{
+    margin-top: -40px;
+    display: flex;
+    width: 100%;
+}
+.tourism2{
+    margin-top: 0px;
+    display: flex;
+    width: 100%;
+}
+.tour{
+    /* width: 23%; */
+    /* margin-top: 1rem!important;
+    margin-bottom: 3rem!important; */
+    justify-content: space-between;
+}
+.tour img{
+    width: 100%;
+}
+.description{
+    margin-top: -5px;
+    font-family: 'Poppins', sans-serif;
+
+    min-height: 5rem;
+    background-color: #fc4e27a3!important;
+    width: 100%;
+    /* padding: 1rem!important;
+    margin-bottom: 1rem!important;
+    margin-top: 1rem!important; */
+    /* margin: 90px; */
+}
+.description h3{
+    padding-top: 9px;
+    font-size: 13px;
+    margin-left: 10px;
+}
+.description span{
+    font-size: 10px;
+    text-align: justify;
+    margin-left: 10px;
+}
+.span1{
+    margin-top: -10px;
+}
+/* des1 */
+.description1{
+    margin-top: -5px;
+    font-family: 'Poppins', sans-serif;
+
+    min-height: 5rem;
+    background-color: #cbff50c7!important;
+    width: 100%;
+    /* padding: 1rem!important;
+    margin-bottom: 1rem!important;
+    margin-top: 1rem!important; */
+    /* margin: 90px; */
+}
+.description1 h3{
+    padding-top: 9px;
+    font-size: 13px;
+    margin-left: 10px;
+}
+.description1 span{
+    font-size: 10px;
+    text-align: justify;
+    margin-left: 10px;
+} 
+
+
+
+.head1 h1{
+    margin-top: 40px;
+    margin-left: 20px;
+}
+.w-food{
+    display: flex;
+    width: 100%;
+    padding: 10px;
+    margin: 20px;
+}
+.w1-food{
+    display: flex;
+    width: 100%;
+    padding: 10px;
+    margin: 20px;
+}
+
+.menufood img{
+    width: 65%;
+}
+.deta h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+}
+.deta p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    width: 200px;
+    
+    min-height: 7rem;}
+
+
+
+    .social a{
+        color: #fffefe;
+        margin-left: 10px;
+       }
+       
+
+    /* uniqueness */
